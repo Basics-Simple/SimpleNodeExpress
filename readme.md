@@ -5,6 +5,8 @@ This repo is designed to show a node server at various levels of setup. Differen
 # About this version
 -Server Created
 -server console.log "listening"
+-When endpoint hit server outputs "hello root" to browser\
+-When /things/cars is hit the server outputs text "hi get /things/cars" to browser
 
 ## Git Setup
 
