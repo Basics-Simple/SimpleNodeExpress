@@ -5,7 +5,10 @@ const app = express();
 const port = process.env.port || 4444;
 const things = require("./routes/things");
 
+//Below is some middleware that takes all data and coverts json to variables
 app.use(express.json());
+
+//This line sets up the root for the router used in things
 app.use("/things", things);
 //use the things.js file to handle
 //endpoints that start with /things
@@ -14,18 +17,6 @@ app.get("/", (req, res) => {
   //handle root
   res.send("hello root");
 });
-
-app
-.route("things/cars")
-.get(( req,res)=>{})
-.post((req,res)=>{});
-
-app
-.route("things/cars/:carId")
-.get((req,res)=>{})
-.put((req,res)=>{});
-
-
 
 app.listen(port, err => {
   if (err) {
