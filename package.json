@@ -1,0 +1,11 @@
+{
+  "name": "nodejssetup",
+  "version": "1.0.0",
+  "description": "A boiler plater setup for node & express featuring a basic route setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
