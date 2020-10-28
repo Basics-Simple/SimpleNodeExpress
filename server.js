@@ -14,15 +14,17 @@ app.get("/", (req, res) => {
   //handle root
   res.send("hello root");
 });
-app.get("things/cars",(req,res)=>{
-  
-})
-app.post("things/cars/:carId",(req,res)=>{
 
-})
-app.put("things/cars/:carId",(req,res)=>{
+app
+.route("things/cars")
+.get(( req,res)=>{})
+.post((req,res)=>{});
 
-})
+app
+.route("things/cars/:carId")
+.get((req,res)=>{})
+.put((req,res)=>{});
+
 
 
 app.listen(port, err => {
