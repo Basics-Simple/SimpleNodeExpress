@@ -20,3 +20,8 @@ git branch -M main
 git remote add origin https://github.com/PaulAyling/SimpleNodeExpress.git
 git push -u origin main
 ```
+
+Sources
+https://www.youtube.com/watch?v=iM_S4RczozU
+https://gist.github.com/prof3ssorSt3v3/2a196fb1c0f97216516b3a47f51e8c51
+https://expressjs.com/en/guide/routing.html
